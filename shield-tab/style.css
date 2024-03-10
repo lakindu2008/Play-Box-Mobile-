@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+body{
+    text-align: center;
+    
+}
+.img1{
+    margin-top: 30%;
+}
+.line{
+    background: linear-gradient(90deg, #20d42f 0%, #ffffff 100%); 
+    background-size: 400% 400%;
+    animation: animationName 3s ease infinite;
+    height: 8px;
+    width: 70%;
+    border-radius: 30px;
+    margin-left: 15%;
+    margin-top: 10%;    
+}
+                    
+@keyframes animationName {
+                      
+    0% { background-position: 0% 0%; }
+                      
+    50% { background-position: 250% 50%; }
+                      
+    100% { background-position: 0% 0%; }
+                    
+  }
+  p{
+    font-family: "poppins",sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+  }
+  button{
+    height: 60px;
+    width: 50%;
+    border-radius: 30px;
+    border: none;
+    background-color: #006eff;
+    color: white;
+    margin-top: 25%;
+    background: linear-gradient(90deg, #0f7af5 0%, #b13f3f 100%); 
+    background-size: 400% 400%;
+    animation: animationName1 3s ease infinite;
+ 
+
+  }
+                    
+  @keyframes animationName1 {
+                      
+    0% { background-position: 0% 50%; }
+                      
+    50% { background-position: 100% 50%; }
+                      
+    100% { background-position: 0% 50%; }
+                    
+  }
+  
